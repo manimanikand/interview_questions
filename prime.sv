@@ -3,7 +3,7 @@ module tb;
     int num;
     int count;
     bit is_prime;
-    
+
 initial begin
     count=0;
     num=2;
@@ -20,7 +20,7 @@ initial begin
         end
 
         if(is_prime) begin
-            $display("count=%0d,num=%od",count+1,num);
+            $display("count=%0d,num=%0d",count+1,num);
             count++;
         end
     num++;
